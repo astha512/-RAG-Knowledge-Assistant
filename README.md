@@ -51,7 +51,7 @@ Try it out: **[Live Application Demo](https://your-app-name.streamlit.app)**
    AI generates an answer based on the context  
    Sources are provided with page numbers
 
-## 🐛 Known Issues / Limitations
+##  Limitations
 
 - Large PDFs: Files over 50 pages may take longer to process
 - Scanned PDFs: OCR not currently supported
@@ -60,14 +60,13 @@ Try it out: **[Live Application Demo](https://your-app-name.streamlit.app)**
 
 ## Future Enhancements (Planned)
 
-Persistent multi-user storage (Pinecone / Qdrant)
-Authentication & user sessions
-Chat history & conversational memory
-FastAPI backend + REST API
-Hybrid search (keyword + semantic)
-OCR support for scanned PDFs
-CI/CD with GitHub Actions
+-Persistent multi-user storage (Pinecone / Qdrant)
+-Authentication & user sessions
+-Chat history & conversational memory
+-FastAPI backend + REST API
+-Hybrid search (keyword + semantic)
+-OCR support for scanned PDFs
 
-Built With ❤️ by
+Built  by
 Astha
 
