@@ -58,4 +58,16 @@ Try it out: **[Live Application Demo](https://your-app-name.streamlit.app)**
 - Image-heavy docs: May result in lower quality chunks
 - Streamlit Cloud (free tier): Indexed documents are temporary per session — reset after inactivity or redeploy
 
+## Future Enhancements (Planned)
+
+Persistent multi-user storage (Pinecone / Qdrant)
+Authentication & user sessions
+Chat history & conversational memory
+FastAPI backend + REST API
+Hybrid search (keyword + semantic)
+OCR support for scanned PDFs
+CI/CD with GitHub Actions
+
+Built With ❤️ by
+Astha
 
