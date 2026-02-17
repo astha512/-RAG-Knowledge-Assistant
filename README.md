@@ -12,8 +12,8 @@ An AI-powered document Q&A system that lets you upload documents and ask questio
 - 
 ## 🚀 Live Demo
 
-Try it out: **[Live Application Demo](https://your-app-name.streamlit.app)**  
-*(Update this link after deploying on Streamlit Cloud)*
+Try it out: **[Live Application Demo](https://nhppsxemcyu8wyuw5vwu5l.streamlit.app/)**  
+
 
 ## 📸 Screenshots
 
