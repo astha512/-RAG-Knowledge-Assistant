@@ -6,7 +6,7 @@ An AI-powered document Q&A system that lets you upload documents and ask questio
 
 - 📁 **Multi-format Support**: Upload PDF, DOCX, and TXT files
 - 💬 **Intelligent Q&A**: Ask questions and get accurate answers from your documents
-- 🔍 **Source Citations**: See exactly where answers come from with page numbers and excerpts
+- 🔍 **Source Citations**: See exactly where answers come from
 - ⚡ **Fast Processing**: Powered by Groq's high-speed LLM inference
 - 💾 **Persistent Storage**: Your documents stay indexed between sessions (local ChromaDB)
 - 
@@ -58,7 +58,7 @@ Try it out: **[Live Application Demo](https://nhppsxemcyu8wyuw5vwu5l.streamlit.a
 - Image-heavy docs: May result in lower quality chunks
 - Streamlit Cloud (free tier): Indexed documents are temporary per session — reset after inactivity or redeploy
 
-## Future Enhancements (Planned)
+## Future Enhancements 
 
 -Persistent multi-user storage (Pinecone / Qdrant)
 -Authentication & user sessions
