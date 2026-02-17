@@ -31,8 +31,8 @@ groq
 # Document Parsing (PDF / DOC / DOCX)
 # -------------------------
 
-    PyMuPDFLoader,
-    TextLoader,
+    PyMuPDFLoader
+    TextLoader
     Docx2txtLoader
 # -------------------------
 # App / UI
@@ -44,3 +44,4 @@ streamlit
 # -------------------------
 
 python-dotenv
+
