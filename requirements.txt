@@ -1,0 +1,46 @@
+# -------------------------
+# Core LLM & Embeddings
+# -------------------------
+
+sentence-transformers
+transformers
+torch
+huggingface-hub
+
+
+# -------------------------
+# LangChain Ecosystem
+# -------------------------
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-text-splitters
+
+# -------------------------
+# Vector Database
+# -------------------------
+chromadb
+
+# -------------------------
+# LLM Provider
+# -------------------------
+groq
+
+# -------------------------
+# Document Parsing (PDF / DOC / DOCX)
+# -------------------------
+
+    PyMuPDFLoader,
+    TextLoader,
+    Docx2txtLoader
+# -------------------------
+# App / UI
+# -------------------------
+streamlit
+
+# -------------------------
+# Backend & Utilities
+# -------------------------
+
+python-dotenv

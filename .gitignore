@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit cache
+.streamlit/cache/
+
+# Local config / secrets (never commit real keys!)
+.env
+*.env
+
+# Temporary files
+*.log
+*.tmp
+temp_*
+
+# Large data or media you don't want in Git
+*.pdf
+*.docx
+*.zip
+*.tar.gz
