@@ -1,47 +1,28 @@
-# -------------------------
-# Core LLM & Embeddings
-# -------------------------
+# Core UI & Framework
+streamlit>=1.38.0
 
-sentence-transformers
-transformers
-torch
-huggingface-hub
+# LangChain family
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+langchain-text-splitters>=0.3.0
 
+# Embeddings (light CPU version)
+sentence-transformers>=3.0.0
+transformers>=4.44.0
+torch --index-url https://download.pytorch.org/whl/cpu  # CPU-only, avoids heavy build
 
-# -------------------------
-# LangChain Ecosystem
-# -------------------------
-langchain
-langchain-core
-langchain-community
-langchain-groq
-langchain-text-splitters
+# Vector DB (stable version)
+chromadb==0.5.5
 
-# -------------------------
-# Vector Database
-# -------------------------
-chromadb
+# Document loaders
+pymupdf>=1.24.0
+docx2txt>=0.8
+python-docx>=1.1.0
 
-# -------------------------
-# LLM Provider
-# -------------------------
-groq
+# Groq SDK
+groq>=0.9.0
 
-# -------------------------
-# Document Parsing (PDF / DOC / DOCX)
-# -------------------------
-
-    PyMuPDFLoader
-    TextLoader
-    Docx2txtLoader
-# -------------------------
-# App / UI
-# -------------------------
-streamlit
-
-# -------------------------
-# Backend & Utilities
-# -------------------------
-
-python-dotenv
-
+# Utilities
+tqdm>=4.66.0
