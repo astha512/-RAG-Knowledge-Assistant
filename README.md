@@ -21,12 +21,12 @@ Try it out: **[Live Application Demo](https://nhppsxemcyu8wyuw5vwu5l.streamlit.a
 |-----------------------------------------|-----------------------------------------|
 | ![Main Interface](screenshots/main.png) | ![Q&A with Sources](screenshots/qa.png) |
 
-*(Add real screenshots to a `screenshots/` folder after testing)*
+
 
 ## 🛠️ Tech Stack
 
 - **Frontend** → Streamlit
-- **LLM** → Groq (Llama 3.1 8B or similar)
+- **LLM** → Groq (llama-3.1-8b-instant )
 - **Embeddings** → Sentence Transformers (`all-MiniLM-L6-v2`)
 - **Vector DB** → ChromaDB
 - **Document Processing** → LangChain loaders (PyMuPDF, Text, Docx2txt)
